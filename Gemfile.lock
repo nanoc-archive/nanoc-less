@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    nanoc-less (1.0.0)
+      less
+      nanoc-core
+      therubyracer
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    commonjs (0.2.6)
+    less (2.3.2)
+      commonjs (~> 0.2.6)
+    libv8 (3.16.14.3)
+    minitest (5.0.6)
+    nanoc-core (4.0.0a1)
+    rake (10.1.0)
+    ref (1.0.5)
+    therubyracer (0.12.0)
+      libv8 (~> 3.16.14.0)
+      ref
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  minitest
+  nanoc-less!
+  rake
